@@ -1,92 +1,52 @@
-ip_list = {
-1:[
-'111',
-'112',
-'113'],
-2:[
-'121',
-'122',
-'123'],
-3:[
-'131',
-'132',
-'133']
-}
+import logging
+import cmd, sys
+import pprint
+import shlex
+from christie_projectors import ChristieProjector
 
+logging.basicConfig(filename='logging.log',level=logging.DEBUG)
 
-subnet = '192.168.0.'
+projectors = {}
 
-from telnetlib import Telnet
-import argparse
+class controlSession(cmd.Cmd):
+    intro = "Christie Projector Control - Type 'help' for command info"
+    prompt = ('Projector: ')
+    file = None
 
-def main():
-    parser = argparse.ArgumentParser()
-    parser.add_argument("telnet_command", 
-        help = """
-        Command list: 
-        'test-pattern-off', 'test-pattern-grid', 'test-pattern-greyscale', 
-        'test-pattern-white', 'test-pattern-gray', 'test-pattern-white', 
-        """)
-    parser.add_argument("stack", 
-        help = "projector stack to address 0 for all", 
-        type = int)
-    args = parser.parse_args()
-    telnet_lookup(args.telnet_command, args.stack)
+    def do_add(self, arg):
+        """Add projector add '192.168.0.xxx"""
+        ip = arg
+        proj = ChristieProjector(ip)
+        if projectors.get(ip):
+            print('error projector already exists')
+        else:
+            projectors[ip] = proj
 
+    def do_remove(ip):
+        pass
 
-def telnet_lookup(command, stack):
-    cle_number = 2
-    if stack == 0:
-        keys = ip_list.keys()
-    else: keys = [stack]
-    for key in keys:
-        for ip in ip_list[key]:
-            ip = ('%s%s'%(subnet,ip), 3002)
-            if command == 'test-pattern-off':
-                telnet_commands = ['ITP 0']
-            elif command == 'test-pattern-grid':
-                telnet_commands = ['ITP 1']
-            elif command == 'test-pattern-greyscale':
-                telnet_commands = ['ITP 2']
-            elif command == 'test-pattern-white':
-                telnet_commands = ['ITP 3']
-            elif command == 'test-pattern-grey':
-                telnet_commands = ['ITP 4']
-            elif command == 'test-pattern-white':
-                telnet_commands = ['ITP 5']
-                print(hello)
-            elif command == 'alignment-tests-go':
-                cle_number = cle_number + 1
-                telnet_commands = ['%s %s'%('CLE', (cle_number%3)+1), 'ITP 1']
-            elif command == 'alignment-tests-stop':
-                telnet_commands = ['CLE 0', 'ITP 0']
-            elif command == 'shutter-projectors':
-                telnet_commands = ['SHU 0']
-            elif command == 'unshutter-projectors':
-                telnet_commands = ['SHU 1']
-            elif command == 'ping':
-                telnet_commands = []
-                ping_projector(ip)
-            else:
-                telnet_commands = [command]
-            #tn.close
-        if telnet_commands:
-            print_telnet (ip, telnet_commands)
+    def do_send_to(self, arguments):
+        """Send telnet command to projector command 192.168.0.xxx 'telnet-command'"""
+        args = shlex.split(arguments)
+        ip = args[0]
+        command = args[1]
+        proj = projectors.get(ip)
+        proj.sendCommand(command)
 
-def print_telnet(ip, telnet_commands):
-    print (telnet_commands)
-    #tn = Telnet('%s%s'%(subnet,ip), 3002)
-    for telnet_command in telnet_commands:
-        #print (ip, telnet_command)
-        
+    def do_show_projectors(self, arg):
+        for proj in projectors.keys():
+            pprint.pprint(proj)
+
+    def do_bye(self, arg):
         try:
-            tn = Telnet('%s%s'%(subnet,ip), 3002)
-            tn.write(telnet_command)
+            return True  
         except Exception as e:
-            print(e, ip)
+            raise e
+    
 
-def ping_projector(ip):
-    print ("Ping ", ip)
+    def save_projectors(self):
+        pass
+
 
 if __name__ == '__main__':
-    main()
+    controlSession().cmdloop()

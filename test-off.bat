@@ -1,0 +1,1 @@
+start cmd.exe /k pause "python christie-cli-control.py test-pattern-off 0" 

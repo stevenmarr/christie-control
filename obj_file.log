@@ -1,0 +1,8 @@
+INFO:root:Sent telnet command ((CLE), 192.168.0.111:3002                 and received response 
+INFO:root:Sent telnet command ((CLE 4)), 192.168.0.111:3002                 and received response 
+INFO:root:Sent telnet command ((CLE 0)), 192.168.0.111:3002                 and received response 
+INFO:root:Sent telnet command ((CLE 9)), 192.168.0.111:3002                 and received response 
+INFO:root:Sent telnet command ((CLE 4)), 192.168.0.111:3002                 and received response 
+INFO:root:Sent telnet command ((CLE 2)), 192.168.0.111:3002                 and received response 
+INFO:root:Sent telnet command ((CLE 0)), 192.168.0.111:3002                 and received response 
+INFO:root:Sent telnet command ((CLE 1)), 192.168.0.111:3002                 and received response 
