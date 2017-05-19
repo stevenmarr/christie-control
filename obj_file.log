@@ -6,3 +6,390 @@ INFO:root:Sent telnet command ((CLE 4)), 192.168.0.111:3002                 and 
 INFO:root:Sent telnet command ((CLE 2)), 192.168.0.111:3002                 and received response 
 INFO:root:Sent telnet command ((CLE 0)), 192.168.0.111:3002                 and received response 
 INFO:root:Sent telnet command ((CLE 1)), 192.168.0.111:3002                 and received response 
+INFO:root:Sent telnet command ((CLE 2)), 192.168.0.111:3002                 and received response 
+INFO:root:Sent telnet command ((CLE 7)), 192.168.0.111:3002                 and received response 
+INFO:root:Sent telnet command ((ITP 6)), 192.168.0.111:3002                 and received response 
+INFO:root:Sent telnet command ((ITP 6)), 192.168.0.112:3002                 and received response 
+INFO:root:Sent telnet command ((ITP 7)), 192.168.0.112:3002                 and received response 
+INFO:root:Sent telnet command ((ITP 8)), 192.168.0.112:3002                 and received response 
+INFO:root:Sent telnet command ((ITP 5)), 192.168.0.112:3002                 and received response 
+INFO:root:Sent telnet command ((ITP 5)), 192.168.0.111:3002                 and received response 
+INFO:root:Sent telnet command ((ITP 2)), 192.168.0.111:3002                 and received response 
+INFO:root:Sent telnet command ((ITP 3)), 192.168.0.111:3002                 and received response 
+INFO:root:Sent telnet command ((ITP 4)), 192.168.0.111:3002                 and received response 
+INFO:root:Sent telnet command ((ITP 4)), 192.168.0.112:3002                 and received response 
+INFO:root:Sent telnet command ((SHU 1)), 192.168.0.112:3002                 and received response 
+INFO:root:Sent telnet command ((ITP 5)), 192.168.0.111:3002                 and received response 
+INFO:root:Sent telnet command ((ITP 5)), 192.168.0.112:3002                 and received response 
+INFO:root:Sent telnet command ((SHU 0)), 192.168.0.112:3002                 and received response 
+INFO:root:Sent telnet command ((EBB+SLCT 1)), 192.168.0.111:3002                 and received response 
+INFO:root:Sent telnet command ((EBB+SLCT 1)), 192.168.0.112:3002                 and received response 
+INFO:root:Sent telnet command ((EBB+RHTW 300)), 192.168.0.112:3002                 and received response 
+INFO:root:Sent telnet command ((EBB+RHTW 300)), 192.168.0.111:3002                 and received response 
+INFO:root:Sent telnet command ((EBB+CNTV 200)), 192.168.0.111:3002                 and received response 
+INFO:root:Sent telnet command ((EBB+CNTV 100)), 192.168.0.111:3002                 and received response 
+INFO:root:Sent telnet command ((EBB+CNTV 100)), 192.168.0.112:3002                 and received response 
+ERROR:root:Error sending telnet command (1) to 192.168.0.112:3002 - timed out
+ERROR:root:Error sending telnet command (1) to 192.168.0.111:3002 - timed out
+ERROR:root:Error sending telnet command ((CLE 1)) to 192.168.0.10:3002 - timed out
+ERROR:root:Error sending telnet command ((ITP 1) to 192.168.0.10:3002 - timed out
+ERROR:root:Error sending telnet command ((CLE 2)) to 192.168.0.121:3002 - timed out
+ERROR:root:Error sending telnet command ((ITP 1) to 192.168.0.121:3002 - timed out
+ERROR:root:Error sending telnet command ((CLE 3)) to 192.168.0.112:3002 - timed out
+ERROR:root:Error sending telnet command ((ITP 1) to 192.168.0.112:3002 - timed out
+ERROR:root:Error sending telnet command ((CLE 4)) to 192.168.0.111:3002 - timed out
+ERROR:root:Error sending telnet command ((ITP 1) to 192.168.0.111:3002 - timed out
+INFO:root:Sent telnet command ((CLE 1)), 192.168.0.131:3002                 and received response 
+INFO:root:Sent telnet command ((ITP 1), 192.168.0.131:3002                 and received response 
+INFO:root:Sent telnet command ((CLE 2)), 192.168.0.121:3002                 and received response 
+INFO:root:Sent telnet command ((ITP 1), 192.168.0.121:3002                 and received response 
+INFO:root:Sent telnet command ((CLE 3)), 192.168.0.10:3002                 and received response 
+INFO:root:Sent telnet command ((ITP 1), 192.168.0.10:3002                 and received response 
+INFO:root:Sent telnet command ((CLE 4)), 192.168.0.111:3002                 and received response 
+INFO:root:Sent telnet command ((ITP 1), 192.168.0.111:3002                 and received response 
+INFO:root:Sent telnet command ((CLE 5)), 192.168.0.112:3002                 and received response 
+INFO:root:Sent telnet command ((ITP 1), 192.168.0.112:3002                 and received response 
+INFO:root:Sent telnet command ((CLE 6)), 192.168.0.9:3002                 and received response 
+INFO:root:Sent telnet command ((ITP 1), 192.168.0.9:3002                 and received response 
+INFO:root:Sent telnet command ((CLE 1)), 192.168.0.131:3002                 and received response 
+INFO:root:Sent telnet command ((ITP 1), 192.168.0.131:3002                 and received response 
+INFO:root:Sent telnet command ((CLE 2)), 192.168.0.121:3002                 and received response 
+INFO:root:Sent telnet command ((ITP 1), 192.168.0.121:3002                 and received response 
+INFO:root:Sent telnet command ((CLE 3)), 192.168.0.10:3002                 and received response 
+INFO:root:Sent telnet command ((ITP 1), 192.168.0.10:3002                 and received response 
+INFO:root:Sent telnet command ((CLE 4)), 192.168.0.111:3002                 and received response 
+INFO:root:Sent telnet command ((ITP 1), 192.168.0.111:3002                 and received response 
+INFO:root:Sent telnet command ((CLE 5)), 192.168.0.112:3002                 and received response 
+INFO:root:Sent telnet command ((ITP 1), 192.168.0.112:3002                 and received response 
+INFO:root:Sent telnet command ((CLE 6)), 192.168.0.9:3002                 and received response 
+INFO:root:Sent telnet command ((ITP 1), 192.168.0.9:3002                 and received response 
+INFO:root:Sent telnet command ((ITP 0), 192.168.0.131:3002                 and received response 
+INFO:root:Sent telnet command ((ITP 0), 192.168.0.121:3002                 and received response 
+INFO:root:Sent telnet command ((ITP 0), 192.168.0.10:3002                 and received response 
+INFO:root:Sent telnet command ((ITP 0), 192.168.0.111:3002                 and received response 
+INFO:root:Sent telnet command ((ITP 0), 192.168.0.112:3002                 and received response 
+INFO:root:Sent telnet command ((ITP 0), 192.168.0.9:3002                 and received response 
+INFO:root:Sent telnet command ((ITP 0), 192.168.0.131:3002                 and received response 
+INFO:root:Sent telnet command ((ITP 0), 192.168.0.121:3002                 and received response 
+INFO:root:Sent telnet command ((ITP 0), 192.168.0.10:3002                 and received response 
+INFO:root:Sent telnet command ((ITP 0), 192.168.0.111:3002                 and received response 
+INFO:root:Sent telnet command ((ITP 0), 192.168.0.112:3002                 and received response 
+INFO:root:Sent telnet command ((ITP 0), 192.168.0.9:3002                 and received response 
+INFO:root:Sent telnet command ((ITP 0), 192.168.0.131:3002                 and received response 
+INFO:root:Sent telnet command ((ITP 0), 192.168.0.121:3002                 and received response 
+INFO:root:Sent telnet command ((ITP 0), 192.168.0.10:3002                 and received response 
+INFO:root:Sent telnet command ((ITP 0), 192.168.0.111:3002                 and received response 
+INFO:root:Sent telnet command ((ITP 0), 192.168.0.112:3002                 and received response 
+INFO:root:Sent telnet command ((ITP 0), 192.168.0.9:3002                 and received response 
+INFO:root:Sent telnet command ((ITP 0)), 192.168.0.131:3002                 and received response 
+ERROR:root:Error sending telnet command ((CLE 7)) to 192.168.0.131:3002 - [Errno 61] Connection refused
+INFO:root:Sent telnet command ((ITP 0)), 192.168.0.121:3002                 and received response 
+ERROR:root:Error sending telnet command ((CLE 7)) to 192.168.0.121:3002 - [Errno 61] Connection refused
+INFO:root:Sent telnet command ((ITP 0)), 192.168.0.112:3002                 and received response 
+ERROR:root:Error sending telnet command ((CLE 7)) to 192.168.0.112:3002 - [Errno 61] Connection refused
+INFO:root:Sent telnet command ((ITP 0)), 192.168.0.111:3002                 and received response 
+ERROR:root:Error sending telnet command ((CLE 7)) to 192.168.0.111:3002 - [Errno 61] Connection refused
+INFO:root:Sent telnet command ((ITP 0)), 192.168.0.10:3002                 and received response 
+ERROR:root:Error sending telnet command ((CLE 7)) to 192.168.0.10:3002 - [Errno 61] Connection refused
+INFO:root:Sent telnet command ((ITP 0)), 192.168.0.9:3002                 and received response 
+ERROR:root:Error sending telnet command ((CLE 7)) to 192.168.0.9:3002 - [Errno 61] Connection refused
+INFO:root:Sent telnet command (ITP 0), 192.168.0.131:3002                 and received response 
+ERROR:root:Error sending telnet command (CLE 7) to 192.168.0.131:3002 - [Errno 61] Connection refused
+INFO:root:Sent telnet command (ITP 0), 192.168.0.121:3002                 and received response 
+ERROR:root:Error sending telnet command (CLE 7) to 192.168.0.121:3002 - [Errno 61] Connection refused
+INFO:root:Sent telnet command (ITP 0), 192.168.0.112:3002                 and received response 
+ERROR:root:Error sending telnet command (CLE 7) to 192.168.0.112:3002 - [Errno 61] Connection refused
+INFO:root:Sent telnet command (ITP 0), 192.168.0.111:3002                 and received response 
+ERROR:root:Error sending telnet command (CLE 7) to 192.168.0.111:3002 - [Errno 61] Connection refused
+INFO:root:Sent telnet command (ITP 0), 192.168.0.10:3002                 and received response 
+ERROR:root:Error sending telnet command (CLE 7) to 192.168.0.10:3002 - [Errno 61] Connection refused
+INFO:root:Sent telnet command (ITP 0), 192.168.0.9:3002                 and received response 
+ERROR:root:Error sending telnet command (CLE 7) to 192.168.0.9:3002 - [Errno 61] Connection refused
+INFO:root:Sent telnet command (ITP 0), 192.168.0.131:3002                 and received response 
+INFO:root:Sent telnet command (CLE 7), 192.168.0.131:3002                 and received response 
+INFO:root:Sent telnet command (ITP 0), 192.168.0.121:3002                 and received response 
+INFO:root:Sent telnet command (CLE 7), 192.168.0.121:3002                 and received response 
+INFO:root:Sent telnet command (ITP 0), 192.168.0.112:3002                 and received response 
+INFO:root:Sent telnet command (CLE 7), 192.168.0.112:3002                 and received response 
+INFO:root:Sent telnet command (ITP 0), 192.168.0.111:3002                 and received response 
+INFO:root:Sent telnet command (CLE 7), 192.168.0.111:3002                 and received response 
+INFO:root:Sent telnet command (ITP 0), 192.168.0.10:3002                 and received response 
+INFO:root:Sent telnet command (CLE 7), 192.168.0.10:3002                 and received response 
+INFO:root:Sent telnet command (ITP 0), 192.168.0.9:3002                 and received response 
+INFO:root:Sent telnet command (CLE 7), 192.168.0.9:3002                 and received response 
+INFO:root:Sent telnet command ((CLE 1)), 192.168.0.131:3002                 and received response 
+INFO:root:Sent telnet command ((ITP 1)), 192.168.0.131:3002                 and received response 
+INFO:root:Sent telnet command ((CLE 2)), 192.168.0.121:3002                 and received response 
+INFO:root:Sent telnet command ((ITP 1)), 192.168.0.121:3002                 and received response 
+INFO:root:Sent telnet command ((CLE 3)), 192.168.0.112:3002                 and received response 
+INFO:root:Sent telnet command ((ITP 1)), 192.168.0.112:3002                 and received response 
+INFO:root:Sent telnet command ((CLE 4)), 192.168.0.111:3002                 and received response 
+INFO:root:Sent telnet command ((ITP 1)), 192.168.0.111:3002                 and received response 
+INFO:root:Sent telnet command ((CLE 5)), 192.168.0.10:3002                 and received response 
+INFO:root:Sent telnet command ((ITP 1)), 192.168.0.10:3002                 and received response 
+INFO:root:Sent telnet command ((CLE 6)), 192.168.0.9:3002                 and received response 
+INFO:root:Sent telnet command ((ITP 1)), 192.168.0.9:3002                 and received response 
+INFO:root:Sent telnet command (ITP 0), 192.168.0.131:3002                 and received response 
+INFO:root:Sent telnet command (CLE 7), 192.168.0.131:3002                 and received response 
+INFO:root:Sent telnet command (ITP 0), 192.168.0.121:3002                 and received response 
+INFO:root:Sent telnet command (CLE 7), 192.168.0.121:3002                 and received response 
+INFO:root:Sent telnet command (ITP 0), 192.168.0.112:3002                 and received response 
+INFO:root:Sent telnet command (CLE 7), 192.168.0.112:3002                 and received response 
+INFO:root:Sent telnet command (ITP 0), 192.168.0.111:3002                 and received response 
+INFO:root:Sent telnet command (CLE 7), 192.168.0.111:3002                 and received response 
+INFO:root:Sent telnet command (ITP 0), 192.168.0.10:3002                 and received response 
+INFO:root:Sent telnet command (CLE 7), 192.168.0.10:3002                 and received response 
+INFO:root:Sent telnet command (ITP 0), 192.168.0.9:3002                 and received response 
+INFO:root:Sent telnet command (CLE 7), 192.168.0.9:3002                 and received response 
+INFO:root:Sent telnet command (ITP 0), 192.168.0.131:3002                 and received response 
+INFO:root:Sent telnet command (CLE 7), 192.168.0.131:3002                 and received response 
+INFO:root:Sent telnet command (ITP 0), 192.168.0.121:3002                 and received response 
+INFO:root:Sent telnet command (CLE 7), 192.168.0.121:3002                 and received response 
+INFO:root:Sent telnet command (ITP 0), 192.168.0.112:3002                 and received response 
+INFO:root:Sent telnet command (CLE 7), 192.168.0.112:3002                 and received response 
+INFO:root:Sent telnet command (ITP 0), 192.168.0.111:3002                 and received response 
+INFO:root:Sent telnet command (CLE 7), 192.168.0.111:3002                 and received response 
+INFO:root:Sent telnet command (ITP 0), 192.168.0.10:3002                 and received response 
+INFO:root:Sent telnet command (CLE 7), 192.168.0.10:3002                 and received response 
+INFO:root:Sent telnet command (ITP 0), 192.168.0.9:3002                 and received response 
+INFO:root:Sent telnet command (CLE 7), 192.168.0.9:3002                 and received response 
+INFO:root:Sent telnet command ((CLE 1)), 192.168.0.131:3002                 and received response 
+INFO:root:Sent telnet command ((ITP 1)), 192.168.0.131:3002                 and received response 
+INFO:root:Sent telnet command ((CLE 2)), 192.168.0.121:3002                 and received response 
+INFO:root:Sent telnet command ((ITP 1)), 192.168.0.121:3002                 and received response 
+INFO:root:Sent telnet command ((CLE 3)), 192.168.0.112:3002                 and received response 
+INFO:root:Sent telnet command ((ITP 1)), 192.168.0.112:3002                 and received response 
+INFO:root:Sent telnet command ((CLE 4)), 192.168.0.111:3002                 and received response 
+INFO:root:Sent telnet command ((ITP 1)), 192.168.0.111:3002                 and received response 
+INFO:root:Sent telnet command ((CLE 5)), 192.168.0.10:3002                 and received response 
+INFO:root:Sent telnet command ((ITP 1)), 192.168.0.10:3002                 and received response 
+INFO:root:Sent telnet command ((CLE 6)), 192.168.0.9:3002                 and received response 
+INFO:root:Sent telnet command ((ITP 1)), 192.168.0.9:3002                 and received response 
+INFO:root:Sent telnet command ((CLE 1)), 192.168.0.131:3002                 and received response 
+INFO:root:Sent telnet command ((ITP 1)), 192.168.0.131:3002                 and received response 
+INFO:root:Sent telnet command ((CLE 2)), 192.168.0.121:3002                 and received response 
+INFO:root:Sent telnet command ((ITP 1)), 192.168.0.121:3002                 and received response 
+INFO:root:Sent telnet command ((CLE 3)), 192.168.0.112:3002                 and received response 
+INFO:root:Sent telnet command ((ITP 1)), 192.168.0.112:3002                 and received response 
+INFO:root:Sent telnet command ((CLE 4)), 192.168.0.111:3002                 and received response 
+INFO:root:Sent telnet command ((ITP 1)), 192.168.0.111:3002                 and received response 
+INFO:root:Sent telnet command ((CLE 5)), 192.168.0.10:3002                 and received response 
+INFO:root:Sent telnet command ((ITP 1)), 192.168.0.10:3002                 and received response 
+INFO:root:Sent telnet command ((CLE 6)), 192.168.0.9:3002                 and received response 
+INFO:root:Sent telnet command ((ITP 1)), 192.168.0.9:3002                 and received response 
+INFO:root:Sent telnet command (ITP 0), 192.168.0.131:3002                 and received response 
+ERROR:root:Error sending telnet command (ITP 0) to 192.168.0.131:3002 - [Errno 61] Connection refused
+INFO:root:Sent telnet command (CLE 7), 192.168.0.131:3002                 and received response 
+ERROR:root:Error sending telnet command (CLE 7) to 192.168.0.131:3002 - [Errno 61] Connection refused
+INFO:root:Sent telnet command (ITP 0), 192.168.0.121:3002                 and received response 
+ERROR:root:Error sending telnet command (ITP 0) to 192.168.0.121:3002 - [Errno 61] Connection refused
+INFO:root:Sent telnet command (CLE 7), 192.168.0.121:3002                 and received response 
+ERROR:root:Error sending telnet command (CLE 7) to 192.168.0.121:3002 - [Errno 61] Connection refused
+INFO:root:Sent telnet command (ITP 0), 192.168.0.112:3002                 and received response 
+ERROR:root:Error sending telnet command (ITP 0) to 192.168.0.112:3002 - [Errno 61] Connection refused
+INFO:root:Sent telnet command (CLE 7), 192.168.0.112:3002                 and received response 
+ERROR:root:Error sending telnet command (CLE 7) to 192.168.0.112:3002 - [Errno 61] Connection refused
+INFO:root:Sent telnet command (ITP 0), 192.168.0.111:3002                 and received response 
+ERROR:root:Error sending telnet command (ITP 0) to 192.168.0.111:3002 - [Errno 61] Connection refused
+INFO:root:Sent telnet command (CLE 7), 192.168.0.111:3002                 and received response 
+ERROR:root:Error sending telnet command (CLE 7) to 192.168.0.111:3002 - [Errno 61] Connection refused
+INFO:root:Sent telnet command (ITP 0), 192.168.0.10:3002                 and received response 
+ERROR:root:Error sending telnet command (ITP 0) to 192.168.0.10:3002 - [Errno 61] Connection refused
+INFO:root:Sent telnet command (CLE 7), 192.168.0.10:3002                 and received response 
+ERROR:root:Error sending telnet command (CLE 7) to 192.168.0.10:3002 - [Errno 61] Connection refused
+INFO:root:Sent telnet command (ITP 0), 192.168.0.9:3002                 and received response 
+ERROR:root:Error sending telnet command (ITP 0) to 192.168.0.9:3002 - [Errno 61] Connection refused
+INFO:root:Sent telnet command (CLE 7), 192.168.0.9:3002                 and received response 
+ERROR:root:Error sending telnet command (CLE 7) to 192.168.0.9:3002 - [Errno 61] Connection refused
+INFO:root:Sent telnet command ((CLE 1)), 192.168.0.131:3002                 and received response 
+ERROR:root:Error sending telnet command ((CLE 1)) to 192.168.0.131:3002 - [Errno 61] Connection refused
+INFO:root:Sent telnet command ((ITP 1)), 192.168.0.131:3002                 and received response 
+ERROR:root:Error sending telnet command ((ITP 1)) to 192.168.0.131:3002 - [Errno 61] Connection refused
+INFO:root:Sent telnet command ((CLE 2)), 192.168.0.121:3002                 and received response 
+ERROR:root:Error sending telnet command ((CLE 2)) to 192.168.0.121:3002 - [Errno 61] Connection refused
+INFO:root:Sent telnet command ((ITP 1)), 192.168.0.121:3002                 and received response 
+ERROR:root:Error sending telnet command ((ITP 1)) to 192.168.0.121:3002 - [Errno 61] Connection refused
+INFO:root:Sent telnet command ((CLE 3)), 192.168.0.112:3002                 and received response 
+ERROR:root:Error sending telnet command ((CLE 3)) to 192.168.0.112:3002 - [Errno 61] Connection refused
+INFO:root:Sent telnet command ((ITP 1)), 192.168.0.112:3002                 and received response 
+ERROR:root:Error sending telnet command ((ITP 1)) to 192.168.0.112:3002 - [Errno 61] Connection refused
+INFO:root:Sent telnet command ((CLE 4)), 192.168.0.111:3002                 and received response 
+ERROR:root:Error sending telnet command ((CLE 4)) to 192.168.0.111:3002 - [Errno 61] Connection refused
+INFO:root:Sent telnet command ((ITP 1)), 192.168.0.111:3002                 and received response 
+ERROR:root:Error sending telnet command ((ITP 1)) to 192.168.0.111:3002 - [Errno 61] Connection refused
+INFO:root:Sent telnet command ((CLE 5)), 192.168.0.10:3002                 and received response 
+ERROR:root:Error sending telnet command ((CLE 5)) to 192.168.0.10:3002 - [Errno 61] Connection refused
+INFO:root:Sent telnet command ((ITP 1)), 192.168.0.10:3002                 and received response 
+ERROR:root:Error sending telnet command ((ITP 1)) to 192.168.0.10:3002 - [Errno 61] Connection refused
+INFO:root:Sent telnet command ((CLE 6)), 192.168.0.9:3002                 and received response 
+ERROR:root:Error sending telnet command ((CLE 6)) to 192.168.0.9:3002 - [Errno 61] Connection refused
+INFO:root:Sent telnet command ((ITP 1)), 192.168.0.9:3002                 and received response 
+ERROR:root:Error sending telnet command ((ITP 1)) to 192.168.0.9:3002 - [Errno 61] Connection refused
+INFO:root:Sent telnet command (ITP 0), 192.168.0.131:3002                 and received response 
+INFO:root:Sent telnet command (ITP 0), 192.168.0.131:3002                 and received response 
+INFO:root:Sent telnet command (CLE 7), 192.168.0.131:3002                 and received response 
+INFO:root:Sent telnet command (CLE 7), 192.168.0.131:3002                 and received response 
+INFO:root:Sent telnet command (ITP 0), 192.168.0.121:3002                 and received response 
+INFO:root:Sent telnet command (ITP 0), 192.168.0.121:3002                 and received response 
+INFO:root:Sent telnet command (CLE 7), 192.168.0.121:3002                 and received response 
+INFO:root:Sent telnet command (CLE 7), 192.168.0.121:3002                 and received response 
+INFO:root:Sent telnet command (ITP 0), 192.168.0.112:3002                 and received response 
+INFO:root:Sent telnet command (ITP 0), 192.168.0.112:3002                 and received response 
+INFO:root:Sent telnet command (CLE 7), 192.168.0.112:3002                 and received response 
+INFO:root:Sent telnet command (CLE 7), 192.168.0.112:3002                 and received response 
+INFO:root:Sent telnet command (ITP 0), 192.168.0.111:3002                 and received response 
+INFO:root:Sent telnet command (ITP 0), 192.168.0.111:3002                 and received response 
+INFO:root:Sent telnet command (CLE 7), 192.168.0.111:3002                 and received response 
+INFO:root:Sent telnet command (CLE 7), 192.168.0.111:3002                 and received response 
+INFO:root:Sent telnet command (ITP 0), 192.168.0.10:3002                 and received response 
+INFO:root:Sent telnet command (ITP 0), 192.168.0.10:3002                 and received response 
+INFO:root:Sent telnet command (CLE 7), 192.168.0.10:3002                 and received response 
+INFO:root:Sent telnet command (CLE 7), 192.168.0.10:3002                 and received response 
+INFO:root:Sent telnet command (ITP 0), 192.168.0.9:3002                 and received response 
+INFO:root:Sent telnet command (ITP 0), 192.168.0.9:3002                 and received response 
+INFO:root:Sent telnet command (CLE 7), 192.168.0.9:3002                 and received response 
+INFO:root:Sent telnet command (CLE 7), 192.168.0.9:3002                 and received response 
+INFO:root:Sent telnet command ((CLE 1)), 192.168.0.131:3002                 and received response 
+INFO:root:Sent telnet command ((CLE 1)), 192.168.0.131:3002                 and received response 
+INFO:root:Sent telnet command ((ITP 1)), 192.168.0.131:3002                 and received response 
+INFO:root:Sent telnet command ((ITP 1)), 192.168.0.131:3002                 and received response 
+INFO:root:Sent telnet command ((CLE 2)), 192.168.0.121:3002                 and received response 
+INFO:root:Sent telnet command ((CLE 2)), 192.168.0.121:3002                 and received response 
+INFO:root:Sent telnet command ((ITP 1)), 192.168.0.121:3002                 and received response 
+INFO:root:Sent telnet command ((ITP 1)), 192.168.0.121:3002                 and received response 
+INFO:root:Sent telnet command ((CLE 3)), 192.168.0.112:3002                 and received response 
+INFO:root:Sent telnet command ((CLE 3)), 192.168.0.112:3002                 and received response 
+INFO:root:Sent telnet command ((ITP 1)), 192.168.0.112:3002                 and received response 
+INFO:root:Sent telnet command ((ITP 1)), 192.168.0.112:3002                 and received response 
+INFO:root:Sent telnet command ((CLE 4)), 192.168.0.111:3002                 and received response 
+INFO:root:Sent telnet command ((CLE 4)), 192.168.0.111:3002                 and received response 
+INFO:root:Sent telnet command ((ITP 1)), 192.168.0.111:3002                 and received response 
+INFO:root:Sent telnet command ((ITP 1)), 192.168.0.111:3002                 and received response 
+INFO:root:Sent telnet command ((CLE 5)), 192.168.0.10:3002                 and received response 
+INFO:root:Sent telnet command ((CLE 5)), 192.168.0.10:3002                 and received response 
+INFO:root:Sent telnet command ((ITP 1)), 192.168.0.10:3002                 and received response 
+INFO:root:Sent telnet command ((ITP 1)), 192.168.0.10:3002                 and received response 
+INFO:root:Sent telnet command ((CLE 6)), 192.168.0.9:3002                 and received response 
+INFO:root:Sent telnet command ((CLE 6)), 192.168.0.9:3002                 and received response 
+INFO:root:Sent telnet command ((ITP 1)), 192.168.0.9:3002                 and received response 
+INFO:root:Sent telnet command ((ITP 1)), 192.168.0.9:3002                 and received response 
+INFO:root:Sent telnet command (ITP 0), 192.168.0.131:3002                 and received response 
+INFO:root:Sent telnet command (ITP 0), 192.168.0.131:3002                 and received response 
+INFO:root:Sent telnet command (CLE 7), 192.168.0.131:3002                 and received response 
+INFO:root:Sent telnet command (CLE 7), 192.168.0.131:3002                 and received response 
+INFO:root:Sent telnet command (ITP 0), 192.168.0.121:3002                 and received response 
+INFO:root:Sent telnet command (ITP 0), 192.168.0.121:3002                 and received response 
+INFO:root:Sent telnet command (CLE 7), 192.168.0.121:3002                 and received response 
+INFO:root:Sent telnet command (CLE 7), 192.168.0.121:3002                 and received response 
+INFO:root:Sent telnet command (ITP 0), 192.168.0.112:3002                 and received response 
+INFO:root:Sent telnet command (ITP 0), 192.168.0.112:3002                 and received response 
+INFO:root:Sent telnet command (CLE 7), 192.168.0.112:3002                 and received response 
+INFO:root:Sent telnet command (CLE 7), 192.168.0.112:3002                 and received response 
+INFO:root:Sent telnet command (ITP 0), 192.168.0.111:3002                 and received response 
+INFO:root:Sent telnet command (ITP 0), 192.168.0.111:3002                 and received response 
+INFO:root:Sent telnet command (CLE 7), 192.168.0.111:3002                 and received response 
+INFO:root:Sent telnet command (CLE 7), 192.168.0.111:3002                 and received response 
+INFO:root:Sent telnet command (ITP 0), 192.168.0.10:3002                 and received response 
+INFO:root:Sent telnet command (ITP 0), 192.168.0.10:3002                 and received response 
+INFO:root:Sent telnet command (CLE 7), 192.168.0.10:3002                 and received response 
+INFO:root:Sent telnet command (CLE 7), 192.168.0.10:3002                 and received response 
+INFO:root:Sent telnet command (ITP 0), 192.168.0.9:3002                 and received response 
+INFO:root:Sent telnet command (ITP 0), 192.168.0.9:3002                 and received response 
+INFO:root:Sent telnet command (CLE 7), 192.168.0.9:3002                 and received response 
+INFO:root:Sent telnet command (CLE 7), 192.168.0.9:3002                 and received response 
+INFO:root:Sent telnet command ((CLE 1)), 192.168.0.131:3002                 and received response 
+INFO:root:Sent telnet command ((CLE 1)), 192.168.0.131:3002                 and received response 
+INFO:root:Sent telnet command ((ITP 1)), 192.168.0.131:3002                 and received response 
+INFO:root:Sent telnet command ((ITP 1)), 192.168.0.131:3002                 and received response 
+INFO:root:Sent telnet command ((CLE 2)), 192.168.0.121:3002                 and received response 
+INFO:root:Sent telnet command ((CLE 2)), 192.168.0.121:3002                 and received response 
+INFO:root:Sent telnet command ((ITP 1)), 192.168.0.121:3002                 and received response 
+INFO:root:Sent telnet command ((ITP 1)), 192.168.0.121:3002                 and received response 
+INFO:root:Sent telnet command ((CLE 3)), 192.168.0.112:3002                 and received response 
+INFO:root:Sent telnet command ((CLE 3)), 192.168.0.112:3002                 and received response 
+INFO:root:Sent telnet command ((ITP 1)), 192.168.0.112:3002                 and received response 
+INFO:root:Sent telnet command ((ITP 1)), 192.168.0.112:3002                 and received response 
+INFO:root:Sent telnet command ((CLE 4)), 192.168.0.111:3002                 and received response 
+INFO:root:Sent telnet command ((CLE 4)), 192.168.0.111:3002                 and received response 
+INFO:root:Sent telnet command ((ITP 1)), 192.168.0.111:3002                 and received response 
+INFO:root:Sent telnet command ((ITP 1)), 192.168.0.111:3002                 and received response 
+INFO:root:Sent telnet command ((CLE 5)), 192.168.0.10:3002                 and received response 
+INFO:root:Sent telnet command ((CLE 5)), 192.168.0.10:3002                 and received response 
+INFO:root:Sent telnet command ((ITP 1)), 192.168.0.10:3002                 and received response 
+INFO:root:Sent telnet command ((ITP 1)), 192.168.0.10:3002                 and received response 
+INFO:root:Sent telnet command ((CLE 6)), 192.168.0.9:3002                 and received response 
+INFO:root:Sent telnet command ((CLE 6)), 192.168.0.9:3002                 and received response 
+INFO:root:Sent telnet command ((ITP 1)), 192.168.0.9:3002                 and received response 
+INFO:root:Sent telnet command ((ITP 1)), 192.168.0.9:3002                 and received response 
+INFO:root:Sent telnet command (ITP 0), 192.168.0.131:3002                 and received response 
+INFO:root:Sent telnet command (ITP 0), 192.168.0.131:3002                 and received response 
+INFO:root:Sent telnet command (CLE 7), 192.168.0.131:3002                 and received response 
+INFO:root:Sent telnet command (CLE 7), 192.168.0.131:3002                 and received response 
+INFO:root:Sent telnet command (ITP 0), 192.168.0.121:3002                 and received response 
+INFO:root:Sent telnet command (ITP 0), 192.168.0.121:3002                 and received response 
+INFO:root:Sent telnet command (CLE 7), 192.168.0.121:3002                 and received response 
+INFO:root:Sent telnet command (CLE 7), 192.168.0.121:3002                 and received response 
+INFO:root:Sent telnet command (ITP 0), 192.168.0.112:3002                 and received response 
+INFO:root:Sent telnet command (ITP 0), 192.168.0.112:3002                 and received response 
+INFO:root:Sent telnet command (CLE 7), 192.168.0.112:3002                 and received response 
+INFO:root:Sent telnet command (CLE 7), 192.168.0.112:3002                 and received response 
+INFO:root:Sent telnet command (ITP 0), 192.168.0.111:3002                 and received response 
+INFO:root:Sent telnet command (ITP 0), 192.168.0.111:3002                 and received response 
+INFO:root:Sent telnet command (CLE 7), 192.168.0.111:3002                 and received response 
+INFO:root:Sent telnet command (CLE 7), 192.168.0.111:3002                 and received response 
+INFO:root:Sent telnet command (ITP 0), 192.168.0.10:3002                 and received response 
+INFO:root:Sent telnet command (ITP 0), 192.168.0.10:3002                 and received response 
+INFO:root:Sent telnet command (CLE 7), 192.168.0.10:3002                 and received response 
+INFO:root:Sent telnet command (CLE 7), 192.168.0.10:3002                 and received response 
+INFO:root:Sent telnet command (ITP 0), 192.168.0.9:3002                 and received response 
+INFO:root:Sent telnet command (ITP 0), 192.168.0.9:3002                 and received response 
+INFO:root:Sent telnet command (CLE 7), 192.168.0.9:3002                 and received response 
+INFO:root:Sent telnet command (CLE 7), 192.168.0.9:3002                 and received response 
+INFO:root:Sent telnet command ((CLE 1)), 192.168.0.131:3002                 and received response 
+INFO:root:Sent telnet command ((CLE 1)), 192.168.0.131:3002                 and received response 
+INFO:root:Sent telnet command ((ITP 1)), 192.168.0.131:3002                 and received response 
+INFO:root:Sent telnet command ((ITP 1)), 192.168.0.131:3002                 and received response 
+INFO:root:Sent telnet command ((CLE 2)), 192.168.0.121:3002                 and received response 
+INFO:root:Sent telnet command ((CLE 2)), 192.168.0.121:3002                 and received response 
+INFO:root:Sent telnet command ((ITP 1)), 192.168.0.121:3002                 and received response 
+INFO:root:Sent telnet command ((ITP 1)), 192.168.0.121:3002                 and received response 
+INFO:root:Sent telnet command ((CLE 3)), 192.168.0.112:3002                 and received response 
+INFO:root:Sent telnet command ((CLE 3)), 192.168.0.112:3002                 and received response 
+INFO:root:Sent telnet command ((ITP 1)), 192.168.0.112:3002                 and received response 
+INFO:root:Sent telnet command ((ITP 1)), 192.168.0.112:3002                 and received response 
+INFO:root:Sent telnet command ((CLE 4)), 192.168.0.111:3002                 and received response 
+INFO:root:Sent telnet command ((CLE 4)), 192.168.0.111:3002                 and received response 
+INFO:root:Sent telnet command ((ITP 1)), 192.168.0.111:3002                 and received response 
+INFO:root:Sent telnet command ((ITP 1)), 192.168.0.111:3002                 and received response 
+INFO:root:Sent telnet command ((CLE 5)), 192.168.0.10:3002                 and received response 
+INFO:root:Sent telnet command ((CLE 5)), 192.168.0.10:3002                 and received response 
+INFO:root:Sent telnet command ((ITP 1)), 192.168.0.10:3002                 and received response 
+INFO:root:Sent telnet command ((ITP 1)), 192.168.0.10:3002                 and received response 
+INFO:root:Sent telnet command ((CLE 6)), 192.168.0.9:3002                 and received response 
+INFO:root:Sent telnet command ((CLE 6)), 192.168.0.9:3002                 and received response 
+INFO:root:Sent telnet command ((ITP 1)), 192.168.0.9:3002                 and received response 
+INFO:root:Sent telnet command ((ITP 1)), 192.168.0.9:3002                 and received response 
+INFO:root:Sent telnet command (ITP 0), 192.168.0.131:3002                 and received response 
+INFO:root:Sent telnet command (ITP 0), 192.168.0.131:3002                 and received response 
+INFO:root:Sent telnet command (CLE 7), 192.168.0.131:3002                 and received response 
+INFO:root:Sent telnet command (CLE 7), 192.168.0.131:3002                 and received response 
+INFO:root:Sent telnet command (ITP 0), 192.168.0.121:3002                 and received response 
+INFO:root:Sent telnet command (ITP 0), 192.168.0.121:3002                 and received response 
+INFO:root:Sent telnet command (CLE 7), 192.168.0.121:3002                 and received response 
+INFO:root:Sent telnet command (CLE 7), 192.168.0.121:3002                 and received response 
+INFO:root:Sent telnet command (ITP 0), 192.168.0.112:3002                 and received response 
+INFO:root:Sent telnet command (ITP 0), 192.168.0.112:3002                 and received response 
+INFO:root:Sent telnet command (CLE 7), 192.168.0.112:3002                 and received response 
+INFO:root:Sent telnet command (CLE 7), 192.168.0.112:3002                 and received response 
+INFO:root:Sent telnet command (ITP 0), 192.168.0.111:3002                 and received response 
+INFO:root:Sent telnet command (ITP 0), 192.168.0.111:3002                 and received response 
+INFO:root:Sent telnet command (CLE 7), 192.168.0.111:3002                 and received response 
+INFO:root:Sent telnet command (CLE 7), 192.168.0.111:3002                 and received response 
+INFO:root:Sent telnet command (ITP 0), 192.168.0.10:3002                 and received response 
+INFO:root:Sent telnet command (ITP 0), 192.168.0.10:3002                 and received response 
+INFO:root:Sent telnet command (CLE 7), 192.168.0.10:3002                 and received response 
+INFO:root:Sent telnet command (CLE 7), 192.168.0.10:3002                 and received response 
+INFO:root:Sent telnet command (ITP 0), 192.168.0.9:3002                 and received response 
+INFO:root:Sent telnet command (ITP 0), 192.168.0.9:3002                 and received response 
+INFO:root:Sent telnet command (CLE 7), 192.168.0.9:3002                 and received response 
+INFO:root:Sent telnet command (CLE 7), 192.168.0.9:3002                 and received response 

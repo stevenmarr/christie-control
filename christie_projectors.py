@@ -1,9 +1,10 @@
 import logging
+import time
 
 from christie_telnet import christie_telnet
 from telnetlib import Telnet
 
-TIMEOUT = 0.5
+TIMEOUT = 0.7
 
 logging.basicConfig(filename='obj_file.log',level=logging.DEBUG)
 
@@ -43,7 +44,10 @@ class ChristieProjector(object):
 
         """
         self.ip = IP
-        self.stack = int(IP[-2])
+        try:
+            self.stack = int(IP[-2])
+        except:
+            self.stack = 9
         self.blend = blend
         self.style = style
         self.port = PORT
@@ -57,7 +61,7 @@ class ChristieProjector(object):
 
     def __sendTelnetCommand(self, command):
         """send telnet command and return response"""
-        print("telnet", command)
+        #print("telnet", command)
         try:
             tn = Telnet(self.ip, self.port, TIMEOUT)
             tn.write(command)
@@ -65,6 +69,7 @@ class ChristieProjector(object):
             logging.info('Sent telnet command %s, %s:%s \
                 and received response %s',
                 command, self.ip, self.port, response)
+            time.sleep(.3)
             tn.close()
         except Exception as e:
             logging.error('Error sending telnet command %s to %s:%i - %s',
